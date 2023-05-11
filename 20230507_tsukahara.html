@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACHTECH</title>
+    <link rel="stylesheet" href="./20230507_tsukahara.css" id="rel">
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">株式会社TECH</h1>
+        <ul class="header_list">
+            <li class="header_list_contents"><a href="">ホーム</a></li>
+            <li class="header_list_contents"><a href="">企業情報</a></li>
+            <li class="header_list_contents"><a href="">会社概要</a></li>
+            <li class="header_list_contents"><a href="">よくある質問</a></li>
+            <li class="header_list_contents"><a href="">お問い合わせ</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <img class="firstview_img" src="./mv.png" alt="">
+        <p class="firstview_text">最新のテクノロジーで<em class="em_word">社会課題</em>を解決</p>
+        <div class="country_info">
+            <h2 class="country_title">会社概要</h2>
+            <table class="country_contents">
+                <tr class="country_contents_raw">
+                    <th class="country_contents_header">会社名</th>
+                    <td class="country_contents_dis">株式会社TECH</td>
+                </tr>
+
+                <tr>
+                    <th class="country_contents_header">代表者</th>
+                    <td class="country_contents_dis">山田　太郎</td>
+                </tr>
+
+                <tr>
+                    <th class="country_contents_header">所在地</th>
+                    <td class="country_contents_dis">東京都渋谷区神宮前</td>
+                </tr>
+
+                <tr>
+                    <th class="country_contents_header">設立</th>
+                    <td class="country_contents_dis">2019/07/17</td>
+                </tr>
+
+                <tr>
+                    <th class="country_contents_header">従業員数</th>
+                    <td class="country_contents_dis">100人</td>
+                </tr>
+
+                <tr>
+                    <th class="country_contents_header">資本金</th>
+                    <td class="country_contents_dis">1000万円</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footer">
+        <h2 class="inquiry_title">お問い合わせ</h2>
+        <form class="inquiry_form" action="20230507_tsukahara.html" method="post">
+            <div class="inquiry_country_name">
+                <label for="inquiry_country_name">会社名</label>
+                <input type="text" name="inquiry_country_name" id="inquiry_country_name">
+            </div>
+            <div class="inquiry_user_name">
+                <label for="inquiry_user_name">お名前</label>
+                <input type="text" name="inquiry_user_name" id="inquiry_user_name">
+            </div>
+            <div class="inquiry_user_mailaddress">
+                <label for="inquiry_user_mailaddress">メールアドレス</label>
+                <input type="text" name="inquiry_user_mailaddress" id="inquiry_user_mailaddress">
+            </div>
+            <div class="inquiry_textarea">
+                <label for="inquiry_textarea">お問い合わせ内容</label>
+                <textarea name="inquiry_textarea" id="inquiry_textarea" cols="50" rows="10"></textarea>
+            </div>
+            <div class="inquiry_submit">
+                <input type="submit" value="お申し込み">
+            </div>
+        </form>
+        <small>&copy; 2020 TECH inc.</small>
+    </footer>
+</body>
+</html>
